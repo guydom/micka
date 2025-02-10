@@ -3,13 +3,14 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #ffffff;
+    color: #ffffff;
+    
 }
 
 /* Header */
 header {
-    background-color: #55b8fa;
+    background-color: #63a9d850;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -27,7 +28,6 @@ h1, h2 {
 nav {
     display: flex;
     justify-content: center;
-    background-color: #656ef8;
 }
 
 nav a {
@@ -53,7 +53,6 @@ section {
 
 /* Footer */
 footer {
-    background-color: #333;
     color: white;
     text-align: center;
     padding: 10px 0;
