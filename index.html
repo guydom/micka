@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Entreprise C.M.C BTP - Plâtre et Placo</title>
+
     <!-- Lien vers Google Fonts pour Roboto -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script> <!-- Lien vers Tailwind CDN -->
+
     <style>
         /* Ajout d'un fond semi-transparent sur les sections avec une image d'arrière-plan */
         .section-bg {
@@ -22,79 +25,129 @@
         }
     </style>
 </head>
-<body class="text-gray-900 font-roboto bg-cover bg-no-repeat bg-center bg-fixed" style="background-image: url('./maison3.jpg');" > 
 
-<header class=" text-white py-8 text-center mb-1">
-    <h1 class="text-3xl font-bold">Entreprise C.M.C BTP - Plâtre et Placo</h1>
-    <p class="mt-2">Experts en aménagement et construction intérieur</p>
-</header>
+<body class="text-gray-900 font-roboto bg-cover bg-no-repeat bg-center bg-fixed" style="background-image: url('./living-room-6676759_1280.jpg');">
 
-<nav class="flex justify-center space-x-6 py-4">
-    <a href="#accueil" class="text-white px-4 font-bold py-2 hover:bg-gray-200 rounded-lg hover:text-black">Accueil</a>
-    <a href="#services" class="text-white px-4 font-bold py-2 hover:bg-gray-200 rounded-lg hover:text-black">Services</a>
-    <a href="#projets" class="text-white px-4 font-bold py-2 hover:bg-gray-200 rounded-lg hover:text-black">Projets</a>
-    <a href="#contact" class="text-white px-4 font-bold py-2 hover:bg-gray-200 rounded-lg hover:text-black">Contact</a>
-</nav>
+    <!-- Header -->
+    <header class="text-white py-8 text-center mb-1">
+        <h1 class="text-5xl font-bold">C.M.C. BTP</h1>
+        <h2 class="text-3xl font-semibold">Plâtre et Placo</h2>
+        <p class="mt-2">Experts en aménagement et construction intérieur</p>
+    </header>
 
-<!-- Section Accueil -->
-<section id="accueil" class="my-8 px-4 py-6  rounded-lg mx-auto max-w-4xl relative section-bg" >
-    <div class="bg-black bg-opacity-20 p-8 rounded-lg">
-        <h2 class="text-2xl font-semibold text-white text-center">Bienvenue chez Entreprise C.M.C BTP</h2>
-        <p class="mt-4 text-white font-bold text-center">Nous sommes spécialisés dans les travaux de plâtre et placo pour tous vos projets de construction et de rénovation. Notre équipe d'experts assure des prestations de qualité pour une finition impeccable de vos espaces.</p>
-    </div>
-</section>
+    <!-- Navigation -->
+    <nav class="flex flex-row justify-center items-center space-x-6 py-4">
+        <a href="#accueil" class="text-white px-4 bg-black bg-opacity-50 font-bold py-2 hover:bg-gray-200 rounded-lg hover:text-black">Accueil</a>
+        <a href="#services" class="text-white px-4 bg-black bg-opacity-50 font-bold py-2 hover:bg-gray-200 rounded-lg hover:text-black">Services</a>
+        <a href="#projets" class="text-white px-4 bg-black bg-opacity-50 font-bold py-2 hover:bg-gray-200 rounded-lg hover:text-black">Projets</a>
+        <a href="#contact" class="text-white px-4 bg-black bg-opacity-50 font-bold py-2 hover:bg-gray-200 rounded-lg hover:text-black">Contact</a>
+    </nav>
 
-<section id="services" class="my-8 px-4 py-6 rounded-lg mx-auto max-w-4xl relative section-bg">
-    <div class="bg-black bg-opacity-20 p-8 rounded-lg flex justify-center items-center">
-        <div class="text-center">
+    <!-- Section Accueil -->
+    <section id="accueil" class="my-8 px-4 py-6 rounded-lg mx-auto max-w-4xl relative section-bg">
+        <div class="bg-black bg-opacity-50 p-8">
+            <h2 class="text-2xl font-semibold text-white text-center">Bienvenue chez C.M.C. BTP</h2>
+            <p class="mt-4 text-white font-bold text-center">Nous sommes spécialisés dans les travaux de plâtre et placo pour tous vos projets de construction et de rénovation. Notre équipe d'experts assure des prestations de qualité pour une finition impeccable de vos espaces.</p>
+        </div>
+    </section>
+
+    <!-- Section Services -->
+    <section id="services" class="my-8 px-4 py-6 mx-auto max-w-4xl relative section-bg">
+        <div class="bg-black bg-opacity-50 p-8 flex flex-col items-center">
             <h2 class="text-2xl font-semibold text-white">Nos Services</h2>
-            <ul class="mt-4 space-y-4 text-white">
-                <li><strong>Plâtrerie traditionnelle</strong> : Application de plâtre pour vos murs et plafonds.</li>
-                <li><strong>Pose de placo</strong> : Installation de cloisons sèches pour vos intérieurs.</li>
-                <li><strong>Isolation thermique et acoustique</strong> : Solutions pour améliorer l'efficacité énergétique et le confort de vos espaces.</li>
-                <li><strong>Rénovation et aménagement</strong> : Travaux de rénovation pour redonner vie à vos pièces.</li>
+            <ul class="mt-4 flex flex-col space-y-4 text-white text-left">
+                <li><strong class="text-xl">Plâtrerie traditionnelle</strong><em class="text-xl"> : Application de plâtre pour vos murs et plafonds.</em></li>
+                <li><strong class="text-xl">Pose de placo</strong><em class="text-xl"> : Installation de cloisons sèches pour vos intérieurs.</em></li>
+                <li><strong class="text-xl">Isolation thermique et acoustique</strong><em class="text-xl"> : Améliorer l'efficacité énergétique de vos espaces.</em></li>
+                <li><strong class="text-xl">Rénovation et aménagement</strong><em class="text-xl"> : Travaux de rénovation pour redonner vie à vos pièces.</em></li>
             </ul>
         </div>
-    </div>
-</section>
+    </section>
 
+    <!-- Section Projets -->
+    <section id="projets" class="my-8 px-4 text-white py-6 bg-black bg-opacity-50 drop-shadow-xl mx-auto max-w-4xl">
+        <h2 class="text-2xl font-semibold text-center">Nos Projets</h2>
+        <p class="mt-4 text-center">Voici quelques exemples de nos réalisations dans le domaine du plâtre et du placo :</p>
 
+        <!-- Carrousel -->
+        <div class="relative mt-6">
+            <!-- Wrapper du carrousel avec overflow caché -->
+            <div class="carousel-wrapper overflow-hidden relative">
+                <!-- Les images du carrousel -->
+                <div class="carousel flex space-x-6 transition-all duration-500">
+                    <div class="w-80 h-80">
+                        <img src="./Nouveau dossier/1739277935891.jpg" alt="Projet 2" class="project-img rounded-lg shadow-md object-cover w-full h-full">
+                    </div>
+                    <div class="w-80 h-80">
+                        <img src="./Nouveau dossier/1739277935928.jpg" alt="Projet 3" class="project-img rounded-lg shadow-md object-cover w-full h-full">
+                    </div>
+                    <div class="w-80 h-80">
+                        <img src="./Nouveau dossier/1739277935818.jpg" alt="Projet 3" class="project-img rounded-lg shadow-md object-cover w-full h-full">
+                    </div>
+                    <div class="w-80 h-80">
+                        <img src="./Nouveau dossier/1739277935836.jpg" alt="Projet 3" class="project-img rounded-lg shadow-md object-cover w-full h-full">
+                    </div>
+                    <div class="w-80 h-80">
+                        <img src="./Nouveau dossier/1739277935854.jpg" alt="Projet 3" class="project-img rounded-lg shadow-md object-cover w-full h-full">
+                    </div>
+                    <div class="w-80 h-80">
+                        <img src="./Nouveau dossier/1739277935948.jpg" alt="Projet 3" class="project-img rounded-lg shadow-md object-cover w-full h-full">
+                    </div>
+                    <div class="w-80 h-80">
+                        <img src="./Nouveau dossier/1739277935968.jpg" alt="Projet 3" class="project-img rounded-lg shadow-md object-cover w-full h-full">
+                    </div>
+                </div>
+            </div>
 
-<!-- Section Projets -->
-<section id="projets" class="my-8 px-4 text-white py-6 bg-black bg-opacity-20 drop-shadow-xl text-slate  rounded-lg mx-auto max-w-4xl">
-    <h2 class="text-2xl font-semibold text-center">Nos Projets</h2>
-    <p class="mt-4 text-center">Voici quelques exemples de nos réalisations dans le domaine du plâtre et du placo :</p>
-    <div class="flex justify-between flex-wrap mt-6">
-        <div class="w-full sm:w-1/3 p-2">
-            <img src="./téléchargement.jpg" alt="Projet 1" class="project-img rounded-lg shadow-md">
-            <p class="mt-2 text-center">Rénovation d'un appartement – Application de plâtre et pose de placo.</p>
+            <!-- Boutons de navigation -->
+            <button id="prev" class="absolute left-0 top-1/2 transform -translate-y-1/2 text-white bg-black bg-opacity-50 p-2 rounded-full">←</button>
+            <button id="next" class="absolute right-0 top-1/2 transform -translate-y-1/2 text-white bg-black bg-opacity-50 p-2 rounded-full">→</button>
         </div>
-        <div class="w-full sm:w-1/3 p-2">
-            <img src="./téléchargement (1).jpg" alt="Projet 2" class="project-img rounded-lg shadow-md">
-            <p class="mt-2 text-center">Création de cloisons pour un bureau moderne.</p>
-        </div>
-        <div class="w-full sm:w-1/3 p-2">
-            <img src="./téléchargement (2).jpg" alt="Projet 3" class="project-img rounded-lg shadow-md">
-            <p class="mt-2 text-center">Isolation thermique dans une maison de ville.</p>
-        </div>
-    </div>
-</section>
+    </section>
 
-<!-- Section Contact -->
-<section id="contact" class="my-8 text-white px-4 py-6 bg-black bg-opacity-20  shadow-xl rounded-lg mx-auto max-w-4xl">
-    <h2 class="text-2xl font-semibold text-center">Contactez-nous</h2>
-    <p class="mt-4 text-center">Pour toute demande de devis ou information, veuillez remplir le formulaire ci-dessous :</p>
-    <form class="mt-6 space-y-4">
-        <input type="text" name="nom" placeholder="Votre nom" required class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
-        <input type="email" name="email" placeholder="Votre email" required class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
-        <textarea name="message" placeholder="Votre message" rows="4" required class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
-        <button type="submit" class="w-full  bg-gray-700 text-white py-3 rounded-lg hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-blue-500"><strong>Envoyer</strong></button>
-    </form>
-</section>
+    <!-- Section Contact -->
+    <section id="contact" class="my-8 text-white px-4 py-6 bg-black bg-opacity-50 shadow-xl mx-auto max-w-4xl">
+        <h2 class="text-2xl font-semibold text-center">Contactez-nous</h2>
+        <p class="mt-4 text-center">Pour toute demande de devis ou information, veuillez remplir le formulaire ci-dessous :</p>
+        <form class="mt-6 space-y-4">
+            <input type="text" name="nom" placeholder="Votre nom" required class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <input type="email" name="email" placeholder="Votre email" required class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <textarea name="message" placeholder="Votre message" rows="4" required class="w-full p-3 text-black border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+            <button type="submit" class="w-full bg-gray-500 text-black text-2xl py-3 rounded-lg hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-blue-500"><strong>Envoyer</strong></button>
+        </form>
+    </section>
 
-<footer class="bg-gray-200 text-gray py-4 text-center">
-    <p>&copy; 2025 Entreprise C.M.C BTP - Tous droits réservés</p>
-</footer>
+    <!-- Footer -->
+    <footer class="bg-gray-200 text-gray py-4 text-center">
+        <p>&copy; 2025 Entreprise C.M.C BTP - Tous droits réservés</p>
+    </footer>
 
-</body>
-</html>
+    <!-- Scripts -->
+    <script>
+        // Carrousel avec boutons de navigation
+        const prevButton = document.getElementById('prev');
+        const nextButton = document.getElementById('next');
+        const carousel = document.querySelector('.carousel');
+        const carouselItems = document.querySelectorAll('.carousel .w-80');
+        let index = 0;
+
+        // Fonction pour naviguer à gauche
+        prevButton.addEventListener('click', () => {
+            index = (index > 0) ? index - 1 : Math.floor(carouselItems.length / 3) - 1;  // Affiche 3 images, donc diviser par 3
+            updateCarousel();
+        });
+
+        // Fonction pour naviguer à droite
+        nextButton.addEventListener('click', () => {
+            index = (index < Math.floor(carouselItems.length / 3) - 1) ? index + 1 : 0;  // Réinitialise à 0 après le dernier ensemble d'images
+            updateCarousel();
+        });
+
+        // Mise à jour de la position du carrousel
+        function updateCarousel() {
+            carousel.style.transform = `translateX(-${index * (carouselItems[0].offsetWidth + 24)}px)`;  // 24px est l'espace entre les images
+        }
+
+        // Carrousel automatique (change les images toutes les 3 secondes)
+        setInterval(() => {
+            index = (index < Math
